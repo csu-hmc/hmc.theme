@@ -170,3 +170,7 @@ adjust color and size until it looks good.*/
     line-height: 1.5em;
     margin-bottom: 0.25em;
 }
+
+#text {
+    width: 70%; 
+}
