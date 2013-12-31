@@ -31,8 +31,9 @@
             
         <replace css:theme-children="div#NewsBlog" css:content-children="div#portal-column-two" />
 
-        <!-- XXX Drop right side user menus, not working -->
+        <!-- XXX Drop user menus, not working -->
         <drop css:theme="#UserBarRight" />
+        <drop css:theme="#UserBarLeft" />
 
     </rules>
 </rules>
