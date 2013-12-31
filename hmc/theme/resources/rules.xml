@@ -35,7 +35,7 @@
         <drop css:theme="#UserBarRight" />
         <drop css:theme="#UserBarLeft" />
 
+        <copy css:theme="#portlets" css:content="#portal-column-two" />
+
     </rules>
 </rules>
-
-
