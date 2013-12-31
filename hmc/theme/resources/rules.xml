@@ -26,8 +26,8 @@
         <!--Replacing Left Side of the User Bar with Plone's User Bar-->
         <replace css:theme-children="ul#UserBarLeft" css:content-children="ul#content-views"/> 
         
-        <!--Replacing Right Side of the User Bar with Plone's User Bar-->
-        <before css:theme="#content" css:content="#edit-bar" />
+        <!--Replacing Right Side of the User Bar with Plone's User Bar
+        <before css:theme="#content" css:content="#edit-bar" />-->
             
         <replace css:theme-children="div#NewsBlog" css:content-children="div#portal-column-two" />
 
