@@ -18,7 +18,7 @@
         
         <!--Replacing content with Plone's content
         <replace css:theme-children="div#text" css:content-children="div#content"/> -->
-        <replace css:theme="#text" css:content="#portal-column-content"/> -->
+        <copy css:theme="#portal-column-content" css:content="#portal-column-content"/> -->
         
         <!--Replacing nav bar with Plone's nav bar-->
         <replace css:theme-children="ul#NavBar" css:content-children="ul#portal-globalnav"/>

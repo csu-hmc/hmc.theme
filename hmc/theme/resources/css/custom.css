@@ -174,3 +174,11 @@ adjust color and size until it looks good.*/
 .mceLayout {
     background: white !important;
 }
+
+#portal-colunn-content {
+    width: 75%;
+}
+
+.portalMessage {
+    color: black;
+}
