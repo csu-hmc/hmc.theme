@@ -40,5 +40,7 @@
         <copy css:theme="#footer" css:content="#portal-footer" />
         <after css:theme="#footer" css:content="#portal-colophon" />
 
+        <replace css:theme="#SearchBar" css:content="#portal-searchbox" />
+
     </rules>
 </rules>
