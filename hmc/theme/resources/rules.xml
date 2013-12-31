@@ -42,5 +42,7 @@
 
         <copy css:theme="#SearchBar" css:content="#portal-searchbox" />
 
+        <drop css:content=".searchSection" />
+
     </rules>
 </rules>
