@@ -163,6 +163,7 @@ adjust color and size until it looks good.*/
   height: 25px;
   top: -20px;
   font-size: 12px;
+  text-align: center;
 }
 
 #content li, dl.portlet li, div.portletStaticText li {
@@ -181,4 +182,8 @@ adjust color and size until it looks good.*/
 
 .portalMessage {
     color: black;
+}
+
+#portal-colophon {
+    text-align: center ;
 }
