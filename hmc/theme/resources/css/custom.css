@@ -164,3 +164,9 @@ adjust color and size until it looks good.*/
   top: -20px;
   font-size: 12px;
 }
+
+#content li, dl.portlet li, div.portletStaticText li {
+    display: inline;
+    line-height: 1.5em;
+    margin-bottom: 0.25em;
+}
