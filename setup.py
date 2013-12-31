@@ -26,6 +26,7 @@ setup(name='hmc.theme',
       install_requires=[
           'setuptools',
           'plone.app.theming',
+          'plonetheme.diazo_sunburst',
           # -*- Extra requirements: -*-
       ],
       extras_require={
