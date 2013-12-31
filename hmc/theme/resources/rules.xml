@@ -16,8 +16,9 @@
         <!-- Replace title with Plone's page title  -->
         <replace css:theme="html head title" css:content="html head title" />
         
-        <!--Replacing content with Plone's content-->
-        <replace css:theme-children="div#text" css:content-children="div#content"/>
+        <!--Replacing content with Plone's content
+        <replace css:theme-children="div#text" css:content-children="div#content"/> -->
+        <replace css:theme="#text" css:content="#portal-column-content"/> -->
         
         <!--Replacing nav bar with Plone's nav bar-->
         <replace css:theme-children="ul#NavBar" css:content-children="ul#portal-globalnav"/>
