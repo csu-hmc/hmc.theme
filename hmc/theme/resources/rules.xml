@@ -37,5 +37,8 @@
 
         <copy css:theme="#portlets" css:content="#portal-column-two" />
 
+        <copy css:theme="#footer" css:content="#portal-footer" />
+        <after css:theme="#footer" css:content="#portal-colophon" />
+
     </rules>
 </rules>
