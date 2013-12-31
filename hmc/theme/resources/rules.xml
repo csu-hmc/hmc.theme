@@ -23,8 +23,8 @@
         <!--Replacing nav bar with Plone's nav bar-->
         <replace css:theme-children="ul#NavBar" css:content-children="ul#portal-globalnav"/>
         
-        <!--Replacing Left Side of the User Bar with Plone's User Bar-->
-        <replace css:theme-children="ul#UserBarLeft" css:content-children="ul#content-views"/> 
+        <!--Replacing Left Side of the User Bar with Plone's User Bar
+        <replace css:theme-children="ul#UserBarLeft" css:content-children="ul#content-views"/> -->
         
         <!--Replacing Right Side of the User Bar with Plone's User Bar
         <before css:theme="#content" css:content="#edit-bar" />-->
