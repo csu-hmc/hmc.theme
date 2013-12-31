@@ -190,7 +190,11 @@ adjust color and size until it looks good.*/
 }
 
 #contentActionMenus {
-    height: 20px;
-    margin: 0; 
+    height: 0;
+    margin-bottom: 1em; 
     padding: 0; 
+}
+
+#portal-column-content {
+    width: 60%;
 }
