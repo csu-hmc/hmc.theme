@@ -227,3 +227,7 @@ html.js body.template-atct_edit div.container div.container div#content.row div#
     background-color: #D5D5D5;
     color: #555555;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
