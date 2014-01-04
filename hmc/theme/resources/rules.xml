@@ -44,5 +44,7 @@
 
         <drop css:content=".searchSection" />
 
+        <drop css:theme="#administration" />
+
     </rules>
 </rules>
