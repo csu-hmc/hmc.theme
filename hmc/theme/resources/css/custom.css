@@ -205,6 +205,8 @@ adjust color and size until it looks good.*/
 
 #portal-personaltools {
     float: right;
+    padding: 0;
+    margin: 0 1em 0 0;
 }
 
 .pb-ajax {
