@@ -210,3 +210,9 @@ adjust color and size until it looks good.*/
 .pb-ajax {
     background: #07121F;
 }
+
+#LSResult, .LSResult {
+    position: absolute;
+    z-index: 1;
+    background: #07121F !important;
+}
