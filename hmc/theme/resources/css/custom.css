@@ -198,3 +198,15 @@ adjust color and size until it looks good.*/
 #portal-column-content {
     width: 60%;
 }
+
+.actionMenuContent {
+    z-index: 1; 
+}
+
+#portal-personaltools {
+    float: right;
+}
+
+.pb-ajax {
+    background: #07121F;
+}

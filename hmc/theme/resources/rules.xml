@@ -44,5 +44,7 @@
 
         <drop css:content=".searchSection" />
 
+        <copy css:theme=".userbarright" css:content="#portal-personaltools" />
+
     </rules>
 </rules>
