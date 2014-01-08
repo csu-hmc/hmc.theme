@@ -4,6 +4,8 @@ Introduction
 The Plone_ Diazo_ based theme for Cleveland State University's Human Motion and
 Control Lab, hmc.csuohio.edu_.
 
+.. image:: front-page.png
+
 .. _Plone: http://www.plone.org
 .. _Diazo: http://www.diazo.org
 .. _hmc.csuohio.edu: http://hmc.csuohio.edu
@@ -41,7 +43,7 @@ and things get jumbled up, which is a known issue.
 
 .. image:: theme-base.png
 
-Finally, in `Theming > Themes` enable the HMC theme.
+Finally, in **Theming > Themes** enable the HMC theme.
 
 .. image:: activate-theme.png
 
