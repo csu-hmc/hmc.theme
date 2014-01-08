@@ -62,8 +62,9 @@ button{
    background-color: #0F243E;
    font-size: 18px;
    top: 10px; 
-   width: 950px;
+   width: 100%;
    border-radius: 3px;
+   margin-bottom: 3em;
 }
 
 .dropdown-menu {
@@ -77,12 +78,12 @@ Top Search Bar
 ==================================================================================================================================================*/  
 
 .searchbar {
-   background-color: #0F243E;
    position: relative;
    font-size: 18px;
-   top: -60px;
+   top: -85px;
    float: right;
    border-radius: 3px;
+   padding-right: 1em;
  }
  
  .search.pull-right {
@@ -163,4 +164,70 @@ adjust color and size until it looks good.*/
   height: 25px;
   top: -20px;
   font-size: 12px;
+  text-align: center;
+}
+
+#content li, dl.portlet li, div.portletStaticText li {
+    display: inline;
+    line-height: 1.5em;
+    margin-bottom: 0.25em;
+}
+
+.mceLayout {
+    background: white !important;
+}
+
+.portalMessage {
+    color: black;
+}
+
+#portal-colophon {
+    text-align: center ;
+}
+
+#edit-bar {
+    height: 32px;
+}
+
+#contentActionMenus {
+    height: 0;
+    margin-bottom: 1em; 
+    padding: 0; 
+}
+
+#portal-column-content {
+    width: 60%;
+}
+
+.actionMenuContent {
+    z-index: 1; 
+}
+
+#portal-personaltools {
+    float: right;
+    padding: 0;
+    margin: 0 1em 0 0;
+}
+
+.pb-ajax {
+    background: #07121F;
+}
+
+#LSResult, .LSResult {
+    position: absolute;
+    z-index: 1;
+    background: #07121F; 
+}
+
+html.js body.template-atct_edit div.container div.container div#content.row div#portal-column-content.col-lg-9 div.documentEditable div#content div form#document-base-edit.enableUnloadProtection fieldset#fieldset-default.formPanel div#archetypes-fieldname-text.field div div span#text_parent.mceEditor table#text_tbl.mceLayout tbody tr.mceFirst td.mceToolbar div#text_toolbargroup span table#text_toolbar1.mceToolbar tbody tr td a#text_definitionlist.mceButton img.mceIcon {
+    top: 0px; /* Fix definition list button */
+}
+
+.selected {
+    background-color: #D5D5D5;
+    color: #555555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
