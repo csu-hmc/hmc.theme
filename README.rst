@@ -29,20 +29,23 @@ Start Plone::
 
    bin/plonectl start
 
-Log into your Plone website. In `Site Setup > Add-ons` activate Diazo support,
-the `hmc.theme`, and `plonetheme.diazo_suburst`.
+Log into your Plone website. In **Site Setup > Add-ons** activate Diazo
+support, the ``hmc.theme``, and ``plonetheme.diazo_suburst``.
+plonetheme.diazo_sunburst_ is an external dependency.
 
 .. image:: add-ons.png
 
-In `Theming > Advanced` choose the `plonetheme.diazo_sunburst` theme base as
-the base. Note that this will remove formatting from the site setup panel and
-things get jumbled up, which is a known issue.
+In **Theming > Advanced** choose the ``plonetheme.diazo_sunburst`` theme base
+as the base. Note that this will remove formatting from the site setup panel
+and things get jumbled up, which is a known issue.
 
 .. image:: theme-base.png
 
 Finally, in `Theming > Themes` enable the HMC theme.
 
 .. image:: activate-theme.png
+
+.. _plonetheme.diazo_sunburst: https://pypi.python.org/pypi/plonetheme.diazo_sunburst/0.0.8
 
 Other
 =====
