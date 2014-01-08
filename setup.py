@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from setuptools import setup, find_packages
 import os
 
@@ -6,15 +8,13 @@ version = '0.1.0'
 setup(name='hmc.theme',
       version=version,
       description="The Diazo based theme for hmc.csuohio.edu.",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from
-      # http://pypi.python.org/pypi?:action=list_classifiers
+      long_description=open("README.rst").read() + "\n" +
+                       open("HISTORY.txt").read(),
       classifiers=[
           "Framework :: Plone",
           "Programming Language :: Python",
       ],
-      keywords='',
+      keywords='theme plone',
       author='Jason K. Moore',
       author_email='j.k.moore19@csuohio.edu',
       url='http://github.com/csu-hmc/hmc.theme',
@@ -27,7 +27,6 @@ setup(name='hmc.theme',
           'setuptools',
           'plone.app.theming',
           'plonetheme.diazo_sunburst',
-          # -*- Extra requirements: -*-
       ],
       extras_require={
           'test': ['plone.app.testing']
@@ -38,6 +37,4 @@ setup(name='hmc.theme',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      #setup_requires=["PasteScript"],
-      #paster_plugins=["ZopeSkel"],
       )
