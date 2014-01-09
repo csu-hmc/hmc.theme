@@ -1,0 +1,3 @@
+recursive-include *.txt *.cfg *.zcml *.xml *.css *.html
+recursive-include LICENSE* *.png *.svg *.ico *.jpg
+hmc/theme/resources/fonts/*
