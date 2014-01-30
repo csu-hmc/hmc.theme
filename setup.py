@@ -8,8 +8,7 @@ version = '0.1.0'
 setup(name='hmc.theme',
       version=version,
       description="The Diazo based theme for hmc.csuohio.edu.",
-      long_description=open("README.rst").read() + "\n" +
-                       open("HISTORY.txt").read(),
+      long_description=open("README.rst").read(),
       classifiers=[
           "Framework :: Plone",
           "Programming Language :: Python",
