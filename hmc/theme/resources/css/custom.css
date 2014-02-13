@@ -14,7 +14,7 @@ body  {
 HEADER
 ==================================================================================================================================================*/
 #header {
-  background: #ffde5e; 
+  background: #ffde5e;
   height: 150px;
   position: relative;
   top: -65px;
@@ -32,7 +32,7 @@ HEADER
   color: #522900;
   position: relative;
   top: 40px;
-  line-height:1.2; 
+  line-height:1.2;
   font-weight: bold;
   left: 15px;
   font-family: font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;;
@@ -43,7 +43,7 @@ HEADER
   position: relative;
   top: 80px;
   left: -200px;
-  line-height:1.2; 
+  line-height:1.2;
   font-weight: bold;
   font-family: font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
@@ -53,7 +53,7 @@ HEADER
 ==================================================================================================================================================
 Top Navigation Bar
 ==================================================================================================================================================*/  
-  
+
 button{
   background: -moz-linear-gradient(top,  rgba(255,192,0,0.69) 0%, rgba(255,138,21,0.69) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,192,0,0.69)), color-stop(100%,rgba(255,138,21,0.69))); /* Chrome,Safari4+ */
@@ -62,15 +62,15 @@ button{
   background: -ms-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ffc000', endColorstr='#b0ff8a15',GradientType=0 ); /* IE6-9 */
-  color: #FFFFFF; 
+  color: #FFFFFF;
  }
-  
+
 .navbar {
    background-color: #00004C;
    font-size: 14px;
    font-weight: bold;
    font-family: font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-   top: 10px; 
+   top: 10px;
    width: 100%;
    border-radius: 3px;
    margin-bottom: 3em;
@@ -94,16 +94,18 @@ Top Search Bar
    float: right;
    border-radius: 3px;
    padding-right: 1em;
- }
- 
- .search.pull-right {
+}
+
+.search.pull-right {
   position: relative;
   top: 10px;
   right: 5px;
 }
+
 .login {
   position: relative;
   }
+
 /*
 ==================================================================================================================================================
 Content/Portlets/Footer
@@ -120,7 +122,7 @@ Content/Portlets/Footer
    background-color: #00004C;
    font-size: 16px;
    color: #FFFFFF;
-   float: right; 
+   float: right;
    top: -35px;
    width: 350px;
    height: 500px;
@@ -160,8 +162,8 @@ adjust color and size until it looks good.*/
 
 #contentActionMenus {
     height: 0;
-    margin-bottom: 1em; 
-    padding: 0; 
+    margin-bottom: 1em;
+    padding: 0;
 }
 
 #portal-column-content {
@@ -169,7 +171,7 @@ adjust color and size until it looks good.*/
 }
 
 .actionMenuContent {
-    z-index: 1; 
+    z-index: 1;
 }
 
 #portal-personaltools {
@@ -179,13 +181,13 @@ adjust color and size until it looks good.*/
 }
 
 .pb-ajax {
-    background: #07121F;
+    background: #FFFFFF;
 }
 
 #LSResult, .LSResult {
     position: absolute;
     z-index: 1;
-    background: #07121F; 
+    background: #FFFFFF;
 }
 
 html.js body.template-atct_edit div.container div.container div#content.row div#portal-column-content.col-lg-9 div.documentEditable div#content div form#document-base-edit.enableUnloadProtection fieldset#fieldset-default.formPanel div#archetypes-fieldname-text.field div div span#text_parent.mceEditor table#text_tbl.mceLayout tbody tr.mceFirst td.mceToolbar div#text_toolbargroup span table#text_toolbar1.mceToolbar tbody tr td a#text_definitionlist.mceButton img.mceIcon {
