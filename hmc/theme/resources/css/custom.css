@@ -14,7 +14,7 @@ body  {
 HEADER
 ==================================================================================================================================================*/
 #header {
-  background: #ffde5e; 
+  background: #ffde5e;
   height: 150px;
   position: relative;
   top: -65px;
@@ -32,7 +32,7 @@ HEADER
   color: #522900;
   position: relative;
   top: 40px;
-  line-height:1.2; 
+  line-height:1.2;
   font-weight: bold;
   left: 15px;
   font-family: font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;;
@@ -43,7 +43,7 @@ HEADER
   position: relative;
   top: 80px;
   left: -200px;
-  line-height:1.2; 
+  line-height:1.2;
   font-weight: bold;
   font-family: font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
@@ -53,7 +53,7 @@ HEADER
 ==================================================================================================================================================
 Top Navigation Bar
 ==================================================================================================================================================*/  
-  
+
 button{
   background: -moz-linear-gradient(top,  rgba(255,192,0,0.69) 0%, rgba(255,138,21,0.69) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,192,0,0.69)), color-stop(100%,rgba(255,138,21,0.69))); /* Chrome,Safari4+ */
@@ -62,15 +62,15 @@ button{
   background: -ms-linear-gradient(top,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(255,192,0,0.69) 0%,rgba(255,138,21,0.69) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0ffc000', endColorstr='#b0ff8a15',GradientType=0 ); /* IE6-9 */
-  color: #FFFFFF; 
+  color: #FFFFFF;
  }
-  
+
 .navbar {
    background-color: #00004C;
    font-size: 14px;
    font-weight: bold;
    font-family: font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-   top: 10px; 
+   top: 10px;
    width: 100%;
    border-radius: 3px;
    margin-bottom: 3em;
@@ -94,9 +94,9 @@ Top Search Bar
    float: right;
    border-radius: 3px;
    padding-right: 1em;
- }
- 
- .search.pull-right {
+}
+
+.search.pull-right {
   position: relative;
   top: 10px;
   right: 5px;
@@ -120,10 +120,9 @@ Content/Portlets/Footer
    background-color: #00004C;
    font-size: 16px;
    color: #FFFFFF;
-   float: right; 
+   float: right;
    top: -35px;
    width: 350px;
-   height: 500px;
 }
 
 /*Depending on what we put in the footer, I will
