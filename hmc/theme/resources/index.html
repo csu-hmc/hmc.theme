@@ -26,8 +26,11 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        
         <div class="container">
-          <div class="top-area">Testing</div>
+
+
+          <!--
           <div id="navigation" class="row">
             <div class="navbar">
               <div class="container">
@@ -51,36 +54,57 @@
               </div>
             </div>
           </div>
+        -->
 
-		<div class="container">
-          <div id="searchsite" class="row">
-            <div class="searchbar">
-              <div class="container">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+        <div id="navigation" class="row">
+          <div class="navbar">
+            <div class="container">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
                 <div class="nav-collapse collapse">
-                  <ul id="SearchBar" class="nav navbar-nav">
-        			<li class="search pull-right">
-                        <input type="text" placeholder="Search Site">
-                        <button type="submit"  class="btn"><span class="glyphicon
-                        glyphicon-search"></span></button></input></li>
-					<li class="login"><a href="#log in">log in </a></li>
-                    </li>
+                  <ul id="NavBar" class="nav navbar-nav">
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="#about">projects</a></li>
+                    <li><a href="#contact">lab members</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#meetings">meetings</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#sponsors">sponsors</a></li>
+                    <li class="login"><a href="#log in">log in </a></li>
                   </ul>
+                  <!--
+                  <form class="navbar-search pull-right">
+                    <input type="text" class="search-query" placeholder="Search">
+                    <button type="submit" class="btn">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </form>
+                -->
+                <form class="navbar-form navbar-search pull-right">
+                    <input type="text" class="search-query" placeholder="Search">
+                    <button type="submit" class="btn btn-default">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+
                 </div>
-              </div>
             </div>
           </div>
+        </div>
+
+
           <div id="header" class="row">
-            <img class="pull-right CSU" src="img/seal.png" height="145px" />
-			<div class="pull-left titleheader top">
-			  <p>Parker Hannifin </p></div>
-            <div class="pull-left titleheader bottom">
-			  <p>Human Motion and Control Laboratory</p>
-          </div> </div>
+            <div class="col-lg-10">
+              <p id="headertitle">Parker Hannifin</p>
+              <p id="headersubtitle">Human Motion & Control Laboratory</p>
+            </div>
+            <div class="col-lg-1 visible-lg visibile-md">
+              <img src="img/seal.png" height="145px" />
+            </div>     
+         </div>
 
           <div id="content" class="row">
             <div id="portal-column-content" class="col-lg-9">
